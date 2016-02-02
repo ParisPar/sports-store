@@ -33,7 +33,7 @@ angular.module('sportsStore')
 
 		$scope.addProductToCart = function(product) {
 			//We defined a dependency on the cart service inside the controller definition, so we can access cart methods
-			cart.addProduct(product.id, product.name, product.price);
+			cart.addProduct(product.$id, product.name, product.price);
 		}
 
 	});
