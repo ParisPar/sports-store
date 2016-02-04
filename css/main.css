@@ -1,4 +1,12 @@
-
 .navbar.navbar-inverse {
 	border-radius: 0;
+}
+
+.navbar-right {
+	float: right !important;
+	margin-right: 5px;
+}
+
+.navbar-text {
+	margin-right: 10px;
 }
